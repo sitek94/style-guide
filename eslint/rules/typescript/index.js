@@ -88,7 +88,7 @@ module.exports = {
      * OFF: Sometimes I want to write an async function which doesn't need to await, just to return
      * a promise.
      */
-        '@typescript-eslint/require-await': 'off',
+    '@typescript-eslint/require-await': 'off',
     /**
      * Require exhaustive checks when using union types in switch statements.
      *

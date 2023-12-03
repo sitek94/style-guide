@@ -21,6 +21,6 @@
     "lib": ["es2022", "dom", "dom.iterable"],
 
     /* React: */
-    "jsx": "react-jsx",
+    "jsx": "react-jsx"
   }
 }
