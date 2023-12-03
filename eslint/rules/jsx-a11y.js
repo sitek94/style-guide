@@ -5,10 +5,10 @@
 const disabledRules = {
   // This rule has been deprecated, but not yet removed.
   'jsx-a11y/no-onchange': 'off',
-};
+}
 
 module.exports = {
   rules: {
     ...disabledRules,
   },
-};
+}

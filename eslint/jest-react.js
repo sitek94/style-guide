@@ -6,4 +6,4 @@ module.exports = {
     // using React with Testing Library.
     'plugin:testing-library/react',
   ],
-};
+}

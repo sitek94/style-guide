@@ -5,7 +5,7 @@ module.exports = {
      *
      * 🚫 Not fixable -https://eslint.org/docs/rules/array-callback-return
      */
-    'array-callback-return': ['error', { allowImplicit: true }],
+    'array-callback-return': ['error', {allowImplicit: true}],
     /**
      * Treat `var` statements as if they were block scoped.
      *
@@ -215,7 +215,7 @@ module.exports = {
      *
      * 🚫 Not fixable - https://eslint.org/docs/rules/prefer-promise-reject-errors
      */
-    'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
+    'prefer-promise-reject-errors': ['error', {allowEmptyReject: true}],
     /**
      * Disallow use of the RegExp constructor in favor of regular expression
      * literals.
@@ -230,4 +230,4 @@ module.exports = {
      */
     yoda: 'warn',
   },
-};
+}

@@ -30,7 +30,7 @@ Some of our ESLint configs require peer dependencies. We'll note those alongside
 
 > Note: Prettier is a peer-dependency of this package, and should be installed at the root of your project.
 >
-> See: https://prettier.io/docs/en/install.html
+> See: [Prettier: Getting Started](https://prettier.io/docs/en/install.html)
 
 To use the shared Prettier config, set the following in `package.json`.
 
@@ -44,7 +44,7 @@ To use the shared Prettier config, set the following in `package.json`.
 
 > Note: ESLint is a peer-dependency of this package, and should be installed at the root of your project.
 >
-> See: https://eslint.org/docs/user-guide/getting-started#installation-and-usage
+> See: [ESLint: Getting Started](https://eslint.org/docs/user-guide/getting-started#installation-and-usage)
 
 This ESLint config is designed to be composable.
 

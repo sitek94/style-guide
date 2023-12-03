@@ -7,7 +7,7 @@ module.exports = {
      */
     camelcase: [
       'error',
-      { allow: ['^UNSAFE_'], ignoreDestructuring: false, properties: 'never' },
+      {allow: ['^UNSAFE_'], ignoreDestructuring: false, properties: 'never'},
     ],
     /**
      * Require function expressions to have a name.
@@ -20,7 +20,7 @@ module.exports = {
      *
      * 🚫 Not fixable - https://eslint.org/docs/rules/new-cap
      */
-    'new-cap': ['error', { capIsNew: false }],
+    'new-cap': ['error', {capIsNew: false}],
     /**
      * Disallow the omission of parentheses when invoking a constructor with
      * no arguments.
@@ -71,4 +71,4 @@ module.exports = {
      */
     'prefer-object-spread': 'warn',
   },
-};
+}

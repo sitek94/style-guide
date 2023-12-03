@@ -19,4 +19,4 @@ module.exports = {
      */
     'unicorn/prefer-node-protocol': 'warn',
   },
-};
+}

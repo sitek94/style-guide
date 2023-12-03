@@ -18,7 +18,7 @@ const recommended = {
   'playwright/no-wait-for-timeout': 'warn',
   'playwright/prefer-web-first-assertions': 'error',
   'playwright/valid-expect': 'error',
-};
+}
 
 module.exports = {
   rules: {
@@ -42,4 +42,4 @@ module.exports = {
      */
     'playwright/require-top-level-describe': 'error',
   },
-};
+}

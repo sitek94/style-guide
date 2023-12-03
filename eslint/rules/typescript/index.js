@@ -7,7 +7,7 @@ module.exports = {
      */
     '@typescript-eslint/consistent-type-exports': [
       'warn',
-      { fixMixedExportsWithInlineTypeSpecifier: true },
+      {fixMixedExportsWithInlineTypeSpecifier: true},
     ],
     /**
      * Require consistent usage of type imports.
@@ -22,7 +22,7 @@ module.exports = {
      */
     '@typescript-eslint/explicit-function-return-type': [
       'warn',
-      { allowExpressions: true },
+      {allowExpressions: true},
     ],
     /**
      * Require using function property types in method signatures.
@@ -81,7 +81,7 @@ module.exports = {
      */
     '@typescript-eslint/require-array-sort-compare': [
       'error',
-      { ignoreStringArrays: true },
+      {ignoreStringArrays: true},
     ],
     /**
      * Require exhaustive checks when using union types in switch statements.
@@ -92,4 +92,4 @@ module.exports = {
      */
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
   },
-};
+}

@@ -1,4 +1,4 @@
-const { TYPESCRIPT_FILES } = require('./constants');
+const {TYPESCRIPT_FILES} = require('./constants')
 
 module.exports = {
   extends: ['plugin:jest/recommended', require.resolve('./rules/jest')],
@@ -13,4 +13,4 @@ module.exports = {
       },
     },
   ],
-};
+}

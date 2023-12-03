@@ -19,4 +19,4 @@ module.exports = {
      */
     'jest/require-top-level-describe': 'error',
   },
-};
+}

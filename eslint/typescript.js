@@ -1,7 +1,7 @@
-const { TYPESCRIPT_FILES } = require('./constants');
-const requirePackage = require('./utils/require-package');
+const {TYPESCRIPT_FILES} = require('./constants')
+const requirePackage = require('./utils/require-package')
 
-requirePackage('typescript', 'typescript');
+requirePackage('typescript', 'typescript')
 
 module.exports = {
   overrides: [
@@ -24,4 +24,4 @@ module.exports = {
       ],
     },
   ],
-};
+}

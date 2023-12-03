@@ -8,7 +8,7 @@ const disabledRules = {
   'react/prop-types': 'off',
   // Disable requiring React to be imported, as this is no longer required.
   'react/react-in-jsx-scope': 'off',
-};
+}
 
 module.exports = {
   rules: {
@@ -74,7 +74,7 @@ module.exports = {
      *
      * 🔧 Fixable - https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
      */
-    'react/jsx-no-useless-fragment': ['warn', { allowExpressions: true }],
+    'react/jsx-no-useless-fragment': ['warn', {allowExpressions: true}],
     /**
      * Require the use of PascalCase for user-defined JSX components.
      *
@@ -106,4 +106,4 @@ module.exports = {
      */
     'react/self-closing-comp': 'warn',
   },
-};
+}

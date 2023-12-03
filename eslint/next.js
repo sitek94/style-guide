@@ -1,25 +1,25 @@
-const { JAVASCRIPT_FILES } = require('./constants');
-const requirePackage = require('./utils/require-package');
+const {JAVASCRIPT_FILES} = require('./constants')
+const requirePackage = require('./utils/require-package')
 
-requirePackage('next', '@next/eslint-plugin-next');
+requirePackage('next', '@next/eslint-plugin-next')
 
 const babelOptions = {
   presets: (() => {
     try {
-      require.resolve('next/babel');
-      return ['next/babel'];
+      require.resolve('next/babel')
+      return ['next/babel']
     } catch (e) {
-      return [];
+      return []
     }
   })(),
-};
+}
 
 module.exports = {
   extends: ['plugin:@next/next/recommended'],
   overrides: [
     {
       files: JAVASCRIPT_FILES,
-      parserOptions: { babelOptions },
+      parserOptions: {babelOptions},
     },
   ],
-};
+}
