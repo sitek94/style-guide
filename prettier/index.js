@@ -9,10 +9,23 @@ const overridableDefaults = {
   tabWidth: 2,
   printWidth: 80,
   useTabs: false,
-};
+}
 
 module.exports = {
   ...overridableDefaults,
   singleQuote: true,
+  arrowParens: 'avoid',
+  bracketSpacing: false,
+  semi: false,
+  trailingComma: 'all',
+  proseWrap: 'always',
+  overrides: [
+    {
+      files: '*.md',
+      options: {
+        printWidth: 120,
+      },
+    },
+  ],
   plugins: ['prettier-plugin-packagejson'],
-};
+}
