@@ -1,17 +1,6 @@
-# The Vercel Style Guide
+# Maciek's Style Guide
 
-<a aria-label="Vercel logo" href="https://vercel.com">
-  <img alt="" src="https://img.shields.io/badge/Made%20by%20Vercel-000000.svg?style=flat-square&logo=Vercel&labelColor=000">
-</a>
-<a aria-label="NPM version" href="https://www.npmjs.com/package/@vercel/style-guide">
-  <img alt="" src="https://img.shields.io/npm/v/@vercel/style-guide.svg?style=flat-square&labelColor=000000">
-</a>
-<a aria-label="License" href="https://github.com/vercel/style-guide/blob/canary/LICENSE.md">
-  <img alt="" src="https://img.shields.io/npm/l/@vercel/style-guide.svg?style=flat-square&labelColor=000000">
-</a>
-<a aria-label="CI status" href="https://github.com/vercel/style-guide/actions/workflows/quality.yml?query=event%3Apush+branch%3Amain">
-  <img alt="" src="https://img.shields.io/github/actions/workflow/status/vercel/style-guide/quality.yml?event=push&branch=main&style=flat-square&labelColor=000000">
-</a>
+I want to keep consistent code style across all my projects. Initially, this repository is a clone of [Vercel's Style Guide](https://github.com/vercel/style-guide) and I will be modifying it to my needs.
 
 ## Introduction
 
@@ -23,11 +12,6 @@ The following configs are available, and are designed to be used together.
 - [Prettier](#prettier)
 - [ESLint](#eslint)
 - [TypeScript](#typescript)
-
-## Contributing
-
-Please read our [contributing](https://github.com/vercel/style-guide/blob/main/CONTRIBUTING.md)
-guide before creating a pull request.
 
 ## Installation
 
@@ -219,3 +203,4 @@ To use the shared TypeScript config, set the following in `tsconfig.json`.
 ```
 
 The base TypeScript config is also available as [`@vercel/style-guide/typescript`](./typescript/tsconfig.base.json) which only specifies a set of general rules. You should inherit from this file when setting custom `lib`, `module`, `target`, and `moduleResolution` settings.
+
