@@ -19,11 +19,10 @@ module.exports = {
      * Require explicit return types on functions and class methods.
      *
      * 🚫 Not fixable - https://typescript-eslint.io/rules/explicit-function-return-type/
+     *
+     * OFF: I prefer inference.
      */
-    '@typescript-eslint/explicit-function-return-type': [
-      'warn',
-      {allowExpressions: true},
-    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     /**
      * Require using function property types in method signatures.
      *
@@ -83,6 +82,13 @@ module.exports = {
       'error',
       {ignoreStringArrays: true},
     ],
+    /**
+     * Disallow async functions which have no `await` expression.
+     *
+     * OFF: Sometimes I want to write an async function which doesn't need to await, just to return
+     * a promise.
+     */
+        '@typescript-eslint/require-await': 'off',
     /**
      * Require exhaustive checks when using union types in switch statements.
      *
