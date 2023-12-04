@@ -3,7 +3,6 @@
   "extends": "./tsconfig.base.json",
   "display": "Remix",
   "docs": "https://github.com/sitek94/style-guide",
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
   "compilerOptions": {
     /* Base Options: */
     "target": "es2022",
