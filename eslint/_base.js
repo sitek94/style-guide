@@ -10,7 +10,6 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
-    'unused-imports',
     'prettier',
     require.resolve('./rules/best-practice'),
     require.resolve('./rules/comments'),
@@ -21,6 +20,7 @@ module.exports = {
     require.resolve('./rules/unicorn'),
     require.resolve('./rules/variables'),
   ],
+  plugins: ['unused-imports'],
   env: {
     [`es${ECMA_VERSION}`]: true,
   },
