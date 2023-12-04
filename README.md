@@ -1,5 +1,7 @@
 # Maciek's Style Guide
 
+[![npm version](https://badge.fury.io/js/@sitek94%2Fstyle-guide.svg)](https://badge.fury.io/js/@sitek94%2Fstyle-guide)
+
 I want to keep consistent code style across all my projects. Initially, this repository is a clone of
 [Vercel's Style Guide](https://github.com/vercel/style-guide) and I will be modifying it to my needs.
 
