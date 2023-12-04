@@ -4,22 +4,15 @@
   "display": "Remix",
   "docs": "https://github.com/sitek94/style-guide",
   "compilerOptions": {
-    /* Base Options: */
     "target": "es2022",
     "allowJs": true,
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
-
-    /* If NOT transpiling with TypeScript: */
     "moduleResolution": "Bundler",
     "module": "ESNext",
     "noEmit": true,
-
-    /* If your code runs in the DOM: */
     "lib": ["es2022", "dom", "dom.iterable"],
-
-    /* React: */
     "jsx": "react-jsx"
   }
 }
