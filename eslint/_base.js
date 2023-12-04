@@ -10,6 +10,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
+    'unused-imports',
     'prettier',
     require.resolve('./rules/best-practice'),
     require.resolve('./rules/comments'),

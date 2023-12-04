@@ -68,6 +68,7 @@ module.exports = {
     'import/order': [
       'warn',
       {
+        alphabetize: {caseInsensitive: true, order: 'asc'},
         groups: [
           'builtin', // Node.js built-in modules
           'external', // Packages
@@ -76,7 +77,7 @@ module.exports = {
           'sibling', // Relative sibling
           'index', // Relative index
         ],
-        'newlines-between': 'never',
+        'newlines-between': 'always',
       },
     ],
   },
